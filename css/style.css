@@ -1,0 +1,901 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+* {
+    margin: 0;
+	padding: 0;
+}
+
+a.btn {
+    border: 1px solid grey;
+    text-decoration: none;
+    color: #df6364;
+ 
+    border-radius: 25px;
+    padding: 10px 30px;
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+ 
+
+}
+
+a.btn.default {
+    background-color:white;
+}
+
+a.btn:hover {
+    background-color: #F5EDEB;
+
+}
+
+body {
+
+	background-color:#ffffff;
+	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+.nav-link {
+    --bs-nav-link-color: #fff;
+}
+
+
+.navbar>.container-fluid {
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+}
+
+
+
+
+
+
+
+/*nosotros_index*/
+
+.flex-containerNos {
+
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 0px; 
+   
+    gap: 15px;
+    justify-content: center;
+}
+
+
+
+
+
+
+	
+span img {
+
+	width: auto;
+	height: 30px;
+	margin: 20px;
+	padding: 50px;
+}
+
+
+
+
+.txtNos {
+	color: grey;
+    text-align: center;
+    margin: 25px auto;
+    padding: 25px auto;
+   
+
+
+}
+
+
+.txt_nos_parrafo {
+    color: grey;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.botonNoss{
+    margin: 25px auto;
+}
+
+
+
+
+/*CursosPresenciales INDEX*/
+
+
+.cursosP {
+    background-color:#df6364;
+
+    
+}
+
+
+.flex-containerCP {
+	
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1128px;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+ 
+
+
+
+	
+
+}
+
+
+
+.txtCursosP {
+	color: white;
+	
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 25px 25px 0px 25px;
+  
+
+}
+
+
+.bannerCP img {
+
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.parrafoNos {
+
+    align-items: center;
+	text-align: justify;
+    color: white;
+
+}
+
+.cursospres {
+	background-color: #df6364;
+
+}
+
+
+
+
+
+
+
+
+
+/*cursos virtuales INDEX*/
+
+.CV_Tittlee {
+    color: grey;
+}
+
+.tituloCvirtuales {
+    color: grey;
+    text-align: center;
+}
+
+.CP_textoo {
+    color: grey;
+}
+
+.flex-containerCV{
+padding: 10px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+max-width: 1128px;
+margin: 20px auto;
+justify-content: center;
+text-align: center;
+}
+
+.txtCV {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 40px 0px 20px;
+    
+}
+
+.bannerCV img {
+
+  height: auto;
+  margin: 2px auto;
+
+}
+
+
+
+
+
+
+
+.parrafoCursosVirtuales {
+    text-align: justify;
+    
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+/*CONTACTO INDEX*/
+
+
+.contact-container {
+    background-color: #df6364;
+}
+
+
+
+.flex_Contact {
+
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    text-align: left;
+    justify-content: center;
+    margin: 25px 0px 0px 0px;
+
+
+
+}
+
+
+
+.txt-contact {
+padding: 10px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 0 auto;
+align-items: center;
+gap: 20px;
+max-width: 1128px;
+}
+
+
+/* iconos index contact */
+
+
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 0px 12px 0px 0px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid #f4a196;
+}
+
+.iconos-redes-sociales a:hover i {
+    color: #f4a196;
+}
+
+.mapa {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+  
+}
+
+
+.mapa iframe {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+/*Nosotros PAGINA */
+.tittle_Nosotros_page{
+    color: grey;
+}
+
+.text-danger {
+    color:grey;
+}
+
+.Nosotros_page {
+    color: grey;
+    text-align: center;
+    margin: 25px auto;
+}
+
+
+
+.txt_Nos_page {
+    color: grey;
+    text-align: center;
+    margin: 0%;
+    padding: 10px;
+    
+}
+
+.flexGalleryNos {
+	
+    height: 40%;
+    padding: 10px;
+    
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+	
+
+}
+
+
+.flexGalleryNos .fotoNos {
+
+    height: auto;
+
+}
+
+
+.flexGalleryNos .fotoNos img {
+	width: 100%;
+    height: auto;
+
+}
+
+
+
+.colorTxtNosotros {
+	color: pink;
+	text-align: center;
+	padding: 40px;
+}
+
+.sNos {
+	color: grey;
+	text-align: center;
+	padding: 40px;
+}
+
+.subt_nosotros {
+	color: darkslategrey;
+	text-align: justify;
+	
+}
+
+
+/*Cursos Virtuales PAGINA*/
+
+
+.CV_Tittlee {
+    color: grey;
+}
+
+
+.CV_txtoo {
+	color:grey;
+}
+
+
+.txtCV h3 {
+    margin: -0 0px 0px 171px;
+    color:grey;
+}
+
+.galeriacv {
+
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: center;
+}
+
+
+.section .galeriacv {
+
+	width: 200px;
+    height: auto;
+
+
+	padding: 30px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	
+}
+
+.galeriacv .pictureCv img {
+	max-width: 300px;
+	justify-content: center;
+	margin: 10px;
+}
+
+
+
+.contact_tittle img {
+    width: 6%;
+}
+
+
+
+
+
+
+
+
+/*CursosPresenciales PAGINA*/
+
+
+
+.CP_tittlee {
+    color: grey;
+}
+
+
+
+.CP_textoo {
+    color:grey;
+}
+
+
+
+
+.calendario h3 {
+    
+    font-size: 1vw;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-content: center;
+    padding-left: 0px; 
+	color: grey;
+}
+
+.calendario {
+    width: 100vw;
+    max-width: 1315px;
+    margin: 0 auto;
+}
+
+.numerodiabeige {
+display: block;
+    position: absolute;
+    color: #e4b279;
+    font-size: 24px;
+    text-align: center;
+    z-index: 10;
+    margin-top: 1rem;
+    font-family: Questrial;
+    align-content: center;
+    margin-left: 6rem;
+    margin-right: 3rem;
+    margin-bottom: 0rem;
+}
+
+
+.numerodia {
+    font-family: Questrial;
+    display: block;
+    position: absolute;
+    color: white;
+    z-index: 10;
+    font-size: 24px;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    text-align: left;
+    text-shadow: 1px 1px 1px #3F3F3F, 0 0 0.2em black;
+    margin-left: 6rem;
+	}
+
+
+.mes {
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 44px;
+    padding-left: 44px;
+    padding-bottom: 16px;
+    border-bottom-style: double;
+    border-width: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-content: center;
+    border-color: #663D23;
+}
+
+.dia .img-zoom {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    background-color: #FB6363;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 62px;
+    visibility: hidden;
+    margin-left: -31px;
+    opacity: 0;
+    border-radius: 0%;
+    right: 50%;
+    margin-top: -24px;
+}
+
+
+.calendario h2 {
+    color: #A8784F;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.calendario h3 {
+    
+    font-size: 1vw;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-content: center;
+    padding-left: 0px;
+}
+
+.dia {
+    position: relative;
+    z-index: 1;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 100%;
+    width: 100%;
+    padding: auto;
+    border-radius: 0%;
+    overflow: hidden;
+    margin-top: -10px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.calendario img {
+    width: 100%;
+    margin-top: 2px;
+    max-width: 400px;
+}
+
+
+.calendario td {
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    border-radius: 50%;
+}
+
+
+/*footer*/
+.footer_container {
+    background-color:white;
+    padding: 15px;
+   
+
+
+   
+  
+    
+}
+
+
+.footer_item {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+   
+  
+
+  
+  }
+  
+.item_footer {
+    margin: 5px 5px;
+    color: grey;
+    text-align: center;
+    font-size: smaller;
+  }
+  
+  .nav_link {
+    color: grey;
+    text-decoration: none;
+    position: relative;
+  }
+  
+ .footer_container a::after {
+    content: '';
+  position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #FB6363;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover::after {
+    transform: scaleX(1);
+  }
+
+  .copywrite-text {
+    color: #9d9c9c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+  }
+
+
+/* CONTACTO PAGINA */
+
+
+.Info_Contact {
+    width: 100%;
+    color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1128px;
+   
+    gap: 20px;
+    justify-content: center;
+    margin: 25px auto;
+    align-items: center;
+ 
+
+}
+
+
+
+
+
+.info-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 40px;
+    margin-top: 20px;
+}
+
+.info-list li {
+
+    margin-bottom: 10px;
+
+  }
+
+  .info-list h2 {
+    margin-bottom: 20px;
+  }
+
+
+
+
+  .iconos-redes-socialess {
+    color: #FB6363;
+  }
+
+
+
+.iconos-redes-socialess a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 0px 12px 0px 0px;
+    border: 2px solid #e06465;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-socialess i {
+    color:e06465;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+    color: #df6364;
+}
+
+.iconos-redes-socialess a:hover {
+    background-color: #f4a196;
+    border: 2px solid white;
+}
+
+.iconos-redes-socialess a:hover i {
+    color: white;
+}
+
+
+.banner-contacto_page img {
+    justify-items: center;
+    align-items: center;
+}
+
+.MapContactPage {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+  
+}
+
+
+.MapContactPage iframe {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* BotonWhatsApp */
+
+
+
+
+
+
+.botonWA a {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 0px 12px 0px 0px;
+    border: 2px solid #25d366;
+    border-radius: 50%;
+    background-color: #25d366;
+    transition: all 0.2s ease-in;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1;
+}
+
+
+.botonWA i {
+    
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+    color: white;
+}
+
+
+.botonWA a:hover {
+    background-color: #157e3b;
+    border: 2px solid #126831;
+}
+
+.botonWA a:hover i {
+    color: white;
+}
+
+
+/* media */
+
+@media (max-width: 767px) { /* mas = hasta... */
+    .flex-containerNos {
+      grid-template-columns: auto;
+      
+    
+     }
+  
+  }
+
+ 
+ 
+  @media (max-width: 767px) { /* mas = hasta... */
+     .flex-containerCP {
+       grid-template-columns: auto;
+     
+      }
+   
+   }
+ 
+
+ 
+   @media (max-width: 767px) { /* mas = hasta... */
+    .flex-containerCV {
+      grid-template-columns: auto;
+    
+     }
+  
+  }
+
+
+
+ 
+   @media (max-width:767px) { /* mas = hasta... */
+    .txt-contact {
+      grid-template-columns: auto;
+     }
+  
+  }
+
+  @media (max-width:767px) { /* mas = hasta... */
+    .Info_Contact {
+      grid-template-columns: auto;
+     }
+  
+  }
