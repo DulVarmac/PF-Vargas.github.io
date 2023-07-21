@@ -88,10 +88,16 @@ $cursosP-bg-color: #df6364;
       align-items: center;
       text-align: justify;
       justify-content: center;
-      margin: 25px;
+
       
 
   
+    }
+
+    .bannerCP {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .bannerCP {
@@ -131,6 +137,19 @@ section {
             display: flex;
             flex-wrap: nowrap;
 
+            .bannerCV {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+
+          .bannerCV
+                img {
+                
+                height: auto;
+              }
+          
+
 
           .txtCV { 
     
@@ -140,7 +159,7 @@ section {
             align-items: center;
             text-align: center;
             justify-content: center;
-            margin: 25px;
+           
           
             h2.tituloCvirtuales {
             
