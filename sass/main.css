@@ -1,0 +1,674 @@
+@media (max-width: 767px) {
+  .flex-containerNos {
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 767px) {
+  .flex-containerCP {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .flex-containerCV {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .txt-contact {
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 767px) { /* mas = hasta... */
+  .Info_Contact {
+    grid-template-columns: auto;
+  }
+}
+.container.mt-5 {
+  margin-top: 5px;
+}
+.container.text-center {
+  text-align: center;
+}
+
+.txt_Nos_page {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.texto__nos {
+  color: grey;
+}
+
+.flexGalleryNos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.flexGalleryNos .fotoNos {
+  height: auto;
+}
+.flexGalleryNos .fotoNos img {
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  z-index: 20;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-wrapper {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  border: 10px solid white;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-wrapper:hover .image {
+  filter: blur(1.4px);
+  transform: scale(1.5);
+  overflow: hidden;
+  transition: all 0.3s linear;
+  box-shadow: inset -6px -1px 32px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card-wrapper:hover .card-bottom {
+  transform: translate(0%, -50%);
+  width: 350px;
+  height: 350px;
+  transition: all 0.8s ease;
+  background-color: rgba(250, 162, 150, 0.8995973389);
+}
+
+.card-top {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.card-bottom {
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+  display: nonee;
+  top: 50%;
+  background-color: rgba(110, 122, 92, 0);
+  padding: 100px 20px;
+  color: #fff;
+  transform: translate(100%, -50%);
+}
+
+.top-text {
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.bottom-text {
+  font-size: 15px;
+}
+
+.button {
+  position: relative;
+  display: block;
+  outline: none;
+  cursor: pointer;
+  margin-top: 25px;
+  border: none;
+  border-radius: 3px;
+  background-color: white;
+  color: #df6364;
+  padding: 5px 20px;
+}
+
+.colorTxtNosotros {
+  color: pink;
+  text-align: center;
+  padding: 40px;
+}
+
+.texto__CP {
+  color: gray;
+}
+
+.sNos {
+  color: grey;
+  text-align: center;
+  padding: 40px;
+}
+
+.subt_nosotros {
+  color: darkslategrey;
+  text-align: justify;
+}
+
+/* CvirtualesCards */
+.galeriacv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  z-index: 20;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-wrapper {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  border: 10px solid white;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-wrapper:hover .image {
+  filter: blur(1.4px);
+  transform: scale(1.5);
+  overflow: hidden;
+  transition: all 0.3s linear;
+  box-shadow: inset -6px -1px 32px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card-wrapper:hover .card-bottom {
+  transform: translate(0%, -50%);
+  width: 350px;
+  height: 350px;
+  transition: all 0.8s ease;
+  background-color: rgba(250, 162, 150, 0.8995973389);
+}
+
+.card-top {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.card-bottom {
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+  display: nonee;
+  top: 50%;
+  background-color: rgba(110, 122, 92, 0);
+  padding: 100px 20px;
+  color: #fff;
+  transform: translate(100%, -50%);
+}
+
+.button a {
+  text-decoration: none;
+  color: #e06465;
+}
+
+.top-text {
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.bottom-text {
+  font-size: 15px;
+}
+
+.calendario {
+  width: 100vw;
+  max-width: 1315px;
+  margin: 0 auto;
+}
+.calendario h2 {
+  text-align: center;
+  font-size: 3vw;
+}
+.calendario h3 {
+  font-size: 1vw;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-content: center;
+  padding-left: 0px;
+  color: grey;
+}
+.calendario .dia {
+  position: relative;
+  z-index: 1;
+  flex: 0 0 20%;
+  max-width: 100%;
+  width: 100%;
+  padding: auto;
+  border-radius: 0%;
+  overflow: hidden;
+  margin-top: -10px;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+.calendario .dia .numerodiabeige {
+  display: block;
+  position: absolute;
+  font-size: 24px;
+  text-align: center;
+  z-index: 10;
+  margin-top: 1rem;
+  font-family: Questrial;
+  align-content: center;
+  margin-left: 6rem;
+  margin-right: 3rem;
+  margin-bottom: 0rem;
+}
+.calendario .dia .numerodia {
+  display: block;
+  position: absolute;
+  color: white;
+  z-index: 10;
+  font-size: 24px;
+  margin-top: 1rem;
+  margin-right: 3rem;
+  text-align: left;
+  text-shadow: 1px 1px 1px #3F3F3F, 0 0 0.2em grey;
+  margin-left: 6rem;
+}
+.calendario .dia .img-zoom {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 50%;
+  left: 50%;
+  z-index: 99;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 62px;
+  visibility: hidden;
+  margin-left: -31px;
+  opacity: 0;
+  border-radius: 0%;
+  right: 50%;
+  margin-top: -24px;
+}
+.calendario img {
+  width: 100%;
+  margin-top: 2px;
+  max-width: 400px;
+}
+.calendario td {
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-bottom: 6px;
+  border-radius: 50%;
+}
+
+.tituloCV {
+  color: grey;
+}
+
+.CV_txtoo {
+  color: grey;
+}
+
+.txtCV h3 {
+  margin: 0 0px 0px 171px;
+  color: grey;
+}
+
+.contact_tittle img {
+  width: 6%;
+}
+
+.Info_Contact {
+  width: 100%;
+  color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1128px;
+  gap: 20px;
+  justify-content: center;
+  margin: 25px auto;
+  align-items: center;
+}
+
+.info-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 40px;
+  margin-top: 20px;
+}
+.info-list li {
+  margin-bottom: 10px;
+}
+.info-list h2 {
+  margin-bottom: 20px;
+}
+
+.iconos-redes-socialess {
+  color: #3F3F3F;
+}
+.iconos-redes-socialess a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 0px 12px 0px 0px;
+  border: 2px solid #e06465;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+.iconos-redes-socialess a:hover {
+  background-color: #f4a196;
+  border: 2px solid white;
+}
+.iconos-redes-socialess a:hover i {
+  color: white;
+}
+.iconos-redes-socialess i {
+  color: #e06465;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.banner-contacto_page img {
+  justify-items: center;
+  align-items: center;
+}
+
+.MapContactPage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.MapContactPage iframe {
+  width: 100%;
+  height: 100%;
+}
+
+a.btn {
+  border: 1px solid white;
+  text-decoration: none;
+  justify-content: center;
+  border: 1px solid rgb(187, 187, 187);
+  color: #df6364;
+  background-color: white;
+}
+a.btn:hover {
+  border: 1px solid white;
+  background-color: #f4a196;
+  color: white;
+}
+
+.botonWA a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 0px 12px 0px 0px;
+  border: 2px solid #25d366;
+  border-radius: 50%;
+  background-color: #25d366;
+  transition: all 0.2s ease-in;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1;
+}
+.botonWA a i {
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+  color: white;
+}
+.botonWA a:hover {
+  background-color: #157e3b;
+  border: 2px solid #126831;
+}
+.botonWA a:hover i {
+  color: white;
+}
+
+.navbar.navbar-expand-lg[data-bs-theme=dark] {
+  background-color: #faa296;
+}
+
+.nav-link {
+  --bs-nav-link-color: $nav-link-color;
+}
+
+.navbar > .container-fluid {
+  display: flex;
+  flex-direction: row-reverse;
+  color: white;
+}
+
+.footer_container {
+  background-color: white;
+  padding: 15px;
+}
+.footer_container .footer_item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.footer_container .footer_item .item_footer {
+  margin: 5px 5px;
+  color: grey;
+  text-align: center;
+  font-size: smaller;
+}
+.footer_container .footer_item .item_footer .nav_link {
+  color: grey;
+  text-decoration: none;
+  position: relative;
+}
+.footer_container .copywrite-text {
+  color: #9d9c9c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 100;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html * {
+  margin: 0;
+  padding: 0;
+}
+
+#nosotros .container {
+  padding: 3rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+#nosotros .container .txtNos {
+  color: grey;
+  text-align: center;
+  margin: 25px auto;
+  padding: 25px auto;
+}
+#nosotros .container .txtNos .botonNoss {
+  margin: 25px auto;
+}
+#nosotros .container .flex-containerNos {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 15px;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.bannerNos1 img {
+  border: 10px solid white;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.bannerNos2 img {
+  border: 10px solid white;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cursosP {
+  background-color: #df6364;
+}
+.cursosP .flex-containerCP {
+  padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  max-width: 1128px;
+  margin: 20px auto;
+  justify-content: center;
+  text-align: center;
+}
+.cursosP .flex-containerCP .txtCursosP {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  margin: 25px;
+}
+.cursosP .flex-containerCP .bannerCP img {
+  height: auto;
+}
+
+section .container-fluid .row .col-sm-12 .flex-containerCV,
+section .container-fluid .row .col-lg-12 .flex-containerCV {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1128px;
+  margin: 20px auto;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
+section .container-fluid .row .col-sm-12 .flex-containerCV .txtCV,
+section .container-fluid .row .col-lg-12 .flex-containerCV .txtCV {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 25px;
+}
+section .container-fluid .row .col-sm-12 .flex-containerCV .txtCV h2.tituloCvirtuales,
+section .container-fluid .row .col-lg-12 .flex-containerCV .txtCV h2.tituloCvirtuales {
+  color: grey;
+  text-align: center;
+}
+section .container-fluid .row .col-sm-12 .flex-containerCV .txtCV p.parrafoCursosVirtuales,
+section .container-fluid .row .col-lg-12 .flex-containerCV .txtCV p.parrafoCursosVirtuales {
+  text-align: justify;
+  color: grey;
+}
+
+.contact-container {
+  background-color: #df6364;
+}
+.contact-container .flex_Contact {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style-type: none;
+  text-align: left;
+  justify-content: center;
+  margin: 25px 0px 0px 0px;
+}
+.contact-container .my-custom-class {
+  list-style: none;
+}
+.contact-container .txt-contact {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  align-items: center;
+  gap: 20px;
+  max-width: 1128px;
+}
+.contact-container .contacto-iconos-indexx li i {
+  margin-right: 10px;
+}
+.contact-container .iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 0px 12px 0px 0px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+  list-style-type: none;
+}
+.contact-container .iconos-redes-sociales a i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+.contact-container .iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid #f4a196;
+}
+.contact-container .iconos-redes-sociales a:hover i {
+  color: #f4a196;
+}
+.contact-container .mapa {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.contact-container .mapa iframe {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=main.css.map */

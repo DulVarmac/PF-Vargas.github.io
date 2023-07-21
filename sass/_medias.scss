@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+    .flex-containerNos {
+      grid-template-columns: auto;
+     
+    }
+  }
+  
+  
+  @media (max-width: 767px) {
+    .flex-containerCP {
+      flex-direction: column;
+      margin-top: 20px;
+  
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .flex-containerCV {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+  
+  }
+  @media (max-width: 767px) {
+    .txt-contact {
+      grid-template-columns: auto;
+  
+      }
+    }
+  
+    @media (max-width:767px) { /* mas = hasta... */
+      .Info_Contact {
+        grid-template-columns: auto;
+      
+       }
+    
+    }
+  

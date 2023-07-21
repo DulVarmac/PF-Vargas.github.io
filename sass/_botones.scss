@@ -1,0 +1,60 @@
+a.btn {
+    border: 1px solid white;
+    text-decoration: none;
+    justify-content: center;
+    border: 1px solid rgb(187, 187, 187);
+    color: #df6364;
+    background-color: white;
+  
+    
+    &:hover {
+      border: 1px solid white;
+      background-color: #f4a196;
+      color: white;
+    }
+
+
+
+ 
+  }
+
+  
+
+  
+.botonWA {
+    a {
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2px;
+      margin: 0px 12px 0px 0px;
+      border: 2px solid #25d366;
+      border-radius: 50%;
+      background-color: #25d366;
+      transition: all 0.2s ease-in;
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      z-index: 1;
+      
+      i {
+        font-size: 1.5rem;
+        transition: all 0.2s ease-in;
+        color: white;
+      }
+  
+      &:hover {
+        background-color: #157e3b;
+        border: 2px solid #126831;
+        
+        i {
+          color: white;
+        }
+      }
+    }
+  }
+  

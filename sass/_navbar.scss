@@ -1,0 +1,26 @@
+
+.navbar {
+    &.navbar-expand-lg {
+      &[data-bs-theme="dark"] {
+        background-color: #faa296;
+      }
+    }
+  
+  
+      }
+  
+       
+  
+  .nav-link {
+    --bs-nav-link-color: $nav-link-color;
+      $nav-link-color: #fff;
+  }
+  
+  .navbar {
+    > .container-fluid {
+      display: flex;
+      flex-direction: row-reverse;
+      color: white;
+    }
+  }
+  
